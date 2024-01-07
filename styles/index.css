@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .banner{
     background-image: url("/resources/Banner\ Image.png");
     background-size: cover;
@@ -21,4 +22,35 @@
 #banner-text h2{
     font-size: 30px;
     font-weight: 400;
+}
+
+.new-year-banner{
+    width: 80%;
+    margin: 24px 150px;
+}
+
+.new-year-banner img{
+    margin: 80px 180px;
+    width: 700px;
+    text-align: center;
+}
+
+#banner-title{
+    text-align: center;
+    padding-top: 20px;
+}
+#banner-title h1{
+    font-size: 75px;
+    color: #F00;
+    font-weight: 800;
+}
+#banner-title h2{
+    font-size: x-small;
+    color: #F00;
+    font-weight: 400;
+    padding: 15px 0 0 0;
+}
+#banner-title h3{
+    font-size: 28px;
+    padding: 15px 0 0 0;
 }
