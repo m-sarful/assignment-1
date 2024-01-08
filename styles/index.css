@@ -4,7 +4,7 @@
 }
 
 .banner{
-    background-image: url("/resources/Banner\ Image.png");
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Banner\ Image.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 }
 
 #banner-text{
-    color:aqua;
+    color:white;
      text-align: center;
      padding-top: 120px;
      font-size: 65px;
@@ -28,9 +28,12 @@
     width: 80%;
     margin: 24px 150px;
 }
-
+ main{
+   /* background-color: aqua; */
+   margin: 25px 65px 25px;
+ }
 .new-year-banner img{
-    margin: 80px 180px;
+    margin: 80px 120px;
     width: 700px;
     text-align: center;
 }
@@ -53,4 +56,44 @@
 #banner-title h3{
     font-size: 28px;
     padding: 15px 0 0 0;
+}
+.new-year-banner-img{
+    background-image: url("/resources/Vectorrr.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin-right: 45px;
+}
+.img-section-text{
+    display: inline;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.img-section-text h1{
+    font-size: 75px;
+    font-weight: 700;
+
+}
+.img-section-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 15px;
+}
+#img-2024{
+    float: right;
+    margin: 34px 23px;
+}
+
+.img-text{
+    margin: 180px 120px;
+}
+.primary-btn{
+    margin: 23px;
+    background-color: transparent;
+    color: wheat;
+    border: 0;
+    font-size: large;
+    font-weight: 700;
 }
