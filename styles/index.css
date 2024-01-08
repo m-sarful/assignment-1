@@ -213,6 +213,7 @@ main {
 }
 
 #discount-img {
+    float: right;
     margin-left: -90px;
     margin-top: 150px;
     width: 160px;
