@@ -195,3 +195,46 @@
     height: 200px;
    
 }
+.portfolio{
+    margin-top: 45px;
+}
+
+.portfolio-img-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio-img-section img{
+    width: 380px;
+    height: 350px;
+    margin-top: 34px;
+}
+
+.newslatter{
+    margin-top: 65px;
+    background-color: bisque;
+    text-align: center;
+    height: 450px;
+}
+.news-letter-text{
+    color: white;
+    text-align: center;
+    margin: 45px 180px 45px;
+    color:darkolivegreen;
+}
+#subscribe-btn{
+    background-color: #F00;
+    color: white;
+    border: 0;
+    border-radius: 0 50px 50px 0;
+    height: 35px;
+    width: 82px;
+}
+
+input[type="search"]{
+    height: 33px;
+    width: 225px;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+}
