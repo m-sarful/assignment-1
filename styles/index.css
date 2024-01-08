@@ -206,6 +206,7 @@ main {
 
 .holidays-img-section {
     display: flex;
+    flex-wrap: nowrap;
     background-image: url("../resources/Rectangle\ 2.png"), url("../resources/Rectangle 1.png");
     background-repeat: no-repeat;
     background-position: bottom, top right;
