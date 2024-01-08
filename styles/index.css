@@ -119,3 +119,40 @@
     border-radius: 8px;
     padding: 14px;
 }
+.box-offer{
+    width: 33%;
+}
+
+.best-offer{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 23px; */
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+
+#best-offer-heading{
+    color: #F00;
+    font-size: 12px;
+    padding-top: 45px;
+}
+
+ #best-offer-title{
+    font-size: 35px;
+
+ }
+ #best-offer-describe{
+    color: gray;
+ }
+ #circle-image{
+    width: 250px;
+   margin-left: 85px;
+   border: 14px solid #F00;
+    border-radius: 460px;
+ }
+ #year{
+    padding-top: 40px;
+    font-size: 45px;
+    color: #F00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
