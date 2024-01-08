@@ -4,6 +4,7 @@
     font-family: 'Merriweather', serif;
     font-family: 'Roboto Mono', monospace;
 }
+
  /* heading section  */
 .banner {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
@@ -30,6 +31,7 @@
 .new-year-banner {
     width: 80%;
     margin: 24px 150px;
+    
 }
  /* main section  */
 main {
@@ -227,6 +229,7 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
+ /* transition section  */
 .portfolio-img-section img:hover{
     transition: all 0.5s ease-in-out;
     border-radius: 64px;
