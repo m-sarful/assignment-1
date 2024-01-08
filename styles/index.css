@@ -227,7 +227,11 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
-
+.portfolio-img-section img:hover{
+    transition: all 0.5s ease-in-out;
+    border-radius: 64px;
+    cursor: pointer;
+}
 .portfolio-img-section img {
     width: 380px;
     height: 350px;
