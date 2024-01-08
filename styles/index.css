@@ -4,7 +4,7 @@
     font-family: 'Merriweather', serif;
     font-family: 'Roboto Mono', monospace;
 }
-
+ /* heading section  */
 .banner {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
     background-size: cover;
@@ -31,7 +31,7 @@
     width: 80%;
     margin: 24px 150px;
 }
-
+ /* main section  */
 main {
     margin: 25px 65px 25px;
 }
@@ -281,11 +281,11 @@ input[type="search"] {
     color: white;
     font-size: 10px;
 }
-
+ /* footer section  */
 footer {
     background: #070211;
     color: white;
-    height: 600px;
+    height: 440px;
 }
 
 #address {
@@ -297,25 +297,32 @@ footer {
     font-size: 11px;
     font-weight: 700;
 }
-
-.social-icon img {
-    width: 35px;
-    margin: 28px auto;
-
+.contact img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
 }
 
-ul {
-
+.social-icon ul {
     text-align: center;
 }
 
-ul>li {
+    .social-icon ul > li {
     list-style: none;
     display: inline;
     padding: 14px 16px;
-
 }
 
-hr {
-    margin: 23px 65px;
+#second-btn{
+ 
+    color: black;
+    border: none;
+   
 }
+
+#second-btn[type="btn"]{
+    background-color: #070211;
+    color: white;
+     font-size: 20px;
+}  
+    
